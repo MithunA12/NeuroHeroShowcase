@@ -14,3 +14,7 @@ The page will reload when you make changes.\
 C:\Users\[redacted]\[redacted]\files\i-care\2.0\training\0313
 
 "redacted" was used for privacy purposes
+
+### Instructions for Running The Web App:
+1.) Launch the app in development mode, as described above
+2.) Start the flask server, in the "predict_outcome" notebook
