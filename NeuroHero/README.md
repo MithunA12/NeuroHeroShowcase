@@ -8,7 +8,7 @@
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 
 ### Save your patient data in a directory, in the following format:
 C:\Users\[redacted]\[redacted]\files\i-care\2.0\training\0313
