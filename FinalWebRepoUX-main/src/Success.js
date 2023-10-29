@@ -19,7 +19,8 @@ const Success = () => {
           Return to home
         </button>
       </div>
-      <h2 className="text-center mb-2">Form Submitted Successfully!</h2>
+      {/* <h2 className="text-center mb-2">Form Submitted Successfully!</h2> */}
+      <h2 className="text-center mb-2" style={{ color: 'white' }}>Form Submitted Successfully!</h2>
       {formData && (
         <div className="mx-auto mt-2" style={{ maxWidth: "500px" }}>
           <div className="card">
