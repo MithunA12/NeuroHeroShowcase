@@ -114,7 +114,7 @@ const FileUpload = () => {
                 </div>
               </div>
               <div className="mb-3 row">
-                <label className="form-label fw-bold col-3">Header File (.hea):</label>
+                <label className="form-label fw-bold col-3">EEG Header File (.hea):</label>
                 <div className="col-8">
                   <input
                     type="file"
@@ -123,6 +123,26 @@ const FileUpload = () => {
                   />
                 </div>
               </div>
+              {/* <div className="mb-3 row">
+                <label className="form-label fw-bold col-3">ECG File (.mat):</label>
+                <div className="col-8">
+                  <input
+                    type="file"
+                    className="form-control"
+                    onChange={(e) => handleFileChange(e, 0)}
+                  />
+                </div>
+              </div>
+              <div className="mb-3 row">
+                <label className="form-label fw-bold col-3">ECG Header File (.hea):</label>
+                <div className="col-8">
+                  <input
+                    type="file"
+                    className="form-control"
+                    onChange={(e) => handleFileChange(e, 1)}
+                  />
+                </div>
+              </div> */}
               <div className="mb-3 row">
                 <label className="form-label fw-bold col-3">Patient File (.txt):</label>
                 <div className="col-8">
