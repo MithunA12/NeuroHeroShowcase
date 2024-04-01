@@ -123,13 +123,13 @@ const FileUpload = () => {
                   />
                 </div>
               </div>
-              {/* <div className="mb-3 row">
+              <div className="mb-3 row">
                 <label className="form-label fw-bold col-3">ECG File (.mat):</label>
                 <div className="col-8">
                   <input
                     type="file"
                     className="form-control"
-                    onChange={(e) => handleFileChange(e, 0)}
+                  // onChange={(e) => handleFileChange(e, 0)}
                   />
                 </div>
               </div>
@@ -139,10 +139,10 @@ const FileUpload = () => {
                   <input
                     type="file"
                     className="form-control"
-                    onChange={(e) => handleFileChange(e, 1)}
+                  // onChange={(e) => handleFileChange(e, 1)}
                   />
                 </div>
-              </div> */}
+              </div>
               <div className="mb-3 row">
                 <label className="form-label fw-bold col-3">Patient File (.txt):</label>
                 <div className="col-8">
